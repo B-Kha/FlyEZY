@@ -62,7 +62,7 @@ public class AccountControllerServlet extends HttpServlet {
             throws ServletException, IOException {
         AccountsDAO ad = new AccountsDAO();
         RolesDAO rd = new RolesDAO();
-        StatusDAO st = new StatusDAO();
+        
         AirlineManageDAO amd = new AirlineManageDAO();
         HttpSession session = request.getSession();
 
